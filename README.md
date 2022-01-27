@@ -11,7 +11,7 @@ When you run the FakeLaserRead.m script
 
 _1) Asking point selection for maps/mymap_
 
-!https://github.com/yilmazabdurrah/fake_laser_measurement_MATLAB/blob/main/figures/SelectPointMap.png?raw=true
+![](https://github.com/yilmazabdurrah/fake_laser_measurement_MATLAB/blob/main/figures/SelectPointMap.png?raw=true)
 
 _2) Drawn fake laser measurements for maps/mymap, laserRange = 5 m, laserResolution = 0.25 degrees_
 
