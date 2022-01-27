@@ -27,7 +27,7 @@ _2) Drawn fake laser measurements for maps/mymap2, laserRange = 30 m, laserResol
 
 ![](https://github.com/yilmazabdurrah/fake_laser_measurement_MATLAB/blob/main/figures/FakeLasersMap2.PNG?raw=true)
 
-Please note that, the codes available at [^1] for reading YAML file and at [^2] for drawing Bresenham's Line for four quadrants are utilized.
+Please note that existing codes are used at [^1] to read the YAML file and at [^2] to plot Bresenham's Line for the four quadrants.
 
 [^1]: https://github.com/llerussell/ReadYAML
 [^2]: https://github.com/ashiagarwal73/Bresenham-s-line-algorithm-for-all-quadrants
