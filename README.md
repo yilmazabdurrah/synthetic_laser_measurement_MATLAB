@@ -5,7 +5,7 @@ When you run the FakeLaserRead.m script
 1) Reads map from a file with ".pgm" extension and its properties from a file with ".yaml" extension
 2) Asks to select a suitable free point on the map
 3) Generates fake laser measurements according to laser scanner range and resolution settings
-4) Draws selected point (blue color), fake laser measurements on map (red color), and laser range circle (dashed-black color)
+4) Draws selected point (blue color), fake laser measurements (red color), and laser range circle (dashed-black color) on map 
 
 **Example for mymap in maps folder**
 
