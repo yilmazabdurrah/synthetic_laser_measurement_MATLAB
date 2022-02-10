@@ -1,5 +1,5 @@
 # fake_laser_measurement_MATLAB
-Fake laser measurements from occupancy grid map
+Fake laser measurements from occupancy grid map, this code generates synthetic laser measurement data from an occupancy grid map
 
 When you run the FakeLaserRead.m script
 1) Reads map from a file with ".pgm" extension and its properties from a file with ".yaml" extension
