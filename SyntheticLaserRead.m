@@ -51,7 +51,7 @@ end
 pixelRange = ceil(laserRange*map.Resolution);
 
 start_xy = fliplr(xyPixel); % flipped since map is (y,x)
-FakeLaserMeas = [];
+SyntheticLaserMeas = [];
 for ang = 0:laserRes:360-laserRes
     pixelyx = ceil([pixelRange*sind(ang), pixelRange*cosd(ang)]);
     end_xy = start_xy + pixelyx;
@@ -75,11 +75,11 @@ for ang = 0:laserRes:360-laserRes
             gridMeas_xy = [NaN, NaN]; % m
         end
     end
-    FakeLaserMeas = [FakeLaserMeas;gridMeas_xy];
+    SyntheticLaserMeas = [SyntheticLaserMeas;gridMeas_xy];
 end
 
 hold on
-plot(FakeLaserMeas(:,1),FakeLaserMeas(:,2),'r.') % Laser measurements
+plot(SyntheticLaserMeas(:,1),SyntheticLaserMeas(:,2),'r.') % Laser measurements
 plot(xc, yc,'b.','MarkerSize',20) % Selected point
 viscircles([xc, yc],laserRange,'Color', 'k','LineStyle','--', 'LineWidth',1) % Draw range circle
 
