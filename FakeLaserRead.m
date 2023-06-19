@@ -1,10 +1,10 @@
-%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%% Fake Laser Measurements from Certain Point on the Map %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% Synthetic Laser Measurements from Certain Point on the Map %%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Date    : 25 January 2022
 % Author  : Abdurrahman Yilmaz
 % Version : v01
-% Info    : Fake laser measurements from a certain point on an occupancy
+% Info    : Synthetic laser measurements from a certain point on an occupancy
 % grid map used in ROS environment
 % Code    : https://github.com/yilmazabdurrah
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
